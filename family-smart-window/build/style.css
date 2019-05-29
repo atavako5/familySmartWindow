@@ -1,0 +1,34 @@
+.current {
+  font-size: 5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+.ui.today-date.card {
+  background-color: #2eb0f2;
+}
+
+.Imsak.Now,
+.Fajr.Now,
+.Sunrise.Now,
+.Noon.Now,
+.Sunset.Now,
+.Maghrib.Now {
+  background-color: #2eb0f2;
+}
+
+.clock {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0;
+}
+.player {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.overall {
+  margin-top: 2.5%;
+}
