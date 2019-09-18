@@ -1,7 +1,7 @@
 import Axios from "axios";
 class PrayerTimeFinderShia {
   findPrayerTime = (latitude, longitude, month, year, callback) => {
-    Axios.get("http://api.aladhan.com/v1/calendar", {
+    Axios.get("https://api.aladhan.com/v1/calendar", {
       params: {
         latitude: latitude,
         longitude: longitude,
