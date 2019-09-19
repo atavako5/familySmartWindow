@@ -222,7 +222,7 @@ class PrayerTime extends React.Component {
         );
       });
       let todaysDate = new Date().getDate();
-      prayerTimeStyler = prayerTimeStyler.slice(todaysDate - 1, todaysDate + 4);
+      prayerTimeStyler = prayerTimeStyler.slice(todaysDate - 1, todaysDate + 2);
 
       prayerTimeStyler.push(
         <div key="localTime" className="ui card">
